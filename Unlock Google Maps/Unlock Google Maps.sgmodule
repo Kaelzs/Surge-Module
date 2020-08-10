@@ -1,0 +1,10 @@
+#!name=Unlock Google Maps
+#!desc=Unlock Google Maps in China Mainland
+
+[MITM]
+hostname = %APPEND%, *googleapis.com, *autonavi.com, *google.com, *google.cn
+
+[Script]
+http-request https?://www.googleapis.com/userlocation/v1/settings script-path = https://raw.githubusercontent.com/Kaelzs/Surge-Modifier/master/Unlock%20Google%20Maps/unlockGoogleMaps.js
+
+http-request https://www.google.cn/maps/vt/proto debug = true, script-path = https://raw.githubusercontent.com/Kaelzs/Surge-Modifier/master/Unlock%20Google%20Maps/redirectCnMap.js
