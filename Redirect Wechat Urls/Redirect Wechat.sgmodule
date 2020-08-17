@@ -5,4 +5,4 @@
 hostname = %APPEND%, support.weixin.qq.com
 
 [Script]
-http-request https?://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate script-path = https://raw.githubusercontent.com/Kaelzs/Surge-Modifier/master/Redirect%20Wechat%20Urls/redirectWechat.js
+http-request https?://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate script-path = https://raw.githubusercontent.com/Kaelzs/Surge-Module/master/Redirect%20Wechat%20Urls/redirectWechat.js

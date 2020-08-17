@@ -5,5 +5,5 @@
 hostname = %APPEND%, 47.99.112.78
 
 [Script]
-http-request https?://47.99.112.78/1.0/originalPosts/like script-path = https://raw.githubusercontent.com/Kaelzs/Surge-Modifier/master/Jike%20Confirmation/jikeLikeConfirmation.js, requires-body = true
-http-request https?://47.99.112.78/1.0/userRelation/follow script-path = https://raw.githubusercontent.com/Kaelzs/Surge-Modifier/master/Jike%20Confirmation/jikeFollowConfirmation.js, requires-body = true
+http-request https?://47.99.112.78/1.0/originalPosts/like script-path = https://raw.githubusercontent.com/Kaelzs/Surge-Module/master/Jike%20Confirmation/jikeLikeConfirmation.js, requires-body = true
+http-request https?://47.99.112.78/1.0/userRelation/follow script-path = https://raw.githubusercontent.com/Kaelzs/Surge-Module/master/Jike%20Confirmation/jikeFollowConfirmation.js, requires-body = true
